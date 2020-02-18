@@ -1,0 +1,9 @@
+<%= @letters %>
+
+<form action="score" method="POST">
+<p>What is the longest word you can find ?</p>
+  <input name="word" id=""  type="text" value="">
+  <input name="Play" id="submit" type="submit" value="Play">
+<%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+</form>
+
